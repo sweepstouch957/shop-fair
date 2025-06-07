@@ -73,7 +73,7 @@ function ThankYouPageInner() {
   const params = useSearchParams();
   const router = useRouter();
   const referralCode = params.get("referralcode") || "";
-  const slug = params.get("slug") || "";
+  const slug = params.get("slug") || "shop-fair-supermarket-12-n-franklin-street-hempstead-nj-07108-usa";
 
   // Si no hay params, redirige con un mensaje
   useEffect(() => {
