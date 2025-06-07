@@ -13,7 +13,7 @@ import Cookies from "js-cookie";
 function WinACarFormContainer() {
   const searchParams = useSearchParams();
   const token = searchParams.get("referralcode") || "";
-  const slug = searchParams.get("slug") || "";
+  const slug = searchParams.get("slug") || "shop-fair-supermarket-12-n-franklin-street-hempstead-nj-07108-usa";
 
    useEffect(() => {
     if (searchParams.get("scrollTo") === "form") {
